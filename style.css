@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.wadah-hp {
+    background-color: blueviolet;
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.foto-bulat {
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid #00ffcc;
+}
+
+.nama-akun {
+    color: red;
+    margin-bottom: 5px;
+}
+
+.bio-singkat {
+    color: black;
+}
+
+.tombol-link {
+    display: block; 
+    background-color: black;
+    color: red;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.tombol-link:hover {
+    background-color: black;
+    color: pink;
+    transform: scale(1.05);
+}
